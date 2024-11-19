@@ -1,0 +1,12 @@
+$colors:(
+    primary-color: rgb(45, 109, 45),
+    secondary-color: black,
+);
+
+
+body {
+    background-color: lightblue;
+    h1{
+        color: map-get($colors, primary-color);
+    }
+}
